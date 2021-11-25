@@ -1,0 +1,182 @@
+{"intents":
+  [
+    {
+      "tag":"sapa",
+      "input":["hi", "halo", "hello", "hallo", "hey", "hai", "hay"],
+      "output":[
+      "Halo ARTourist!",
+      "Hai ARTourist!",
+      "Halo, Selamat Datang ^^",
+      "Selamat datang di ARTour~",
+      "Welcome ARTourist!",
+      "Hi, selamat datang di ARTour~"
+      ]
+    },
+    {
+      "tag":"kabar",
+      "input":["apa kabar", "bagaimana kabarmu?", "gimana kabarnya?", "apa harimu baik?", "bagaimana harimu?", "apa harimu menyenangkan?", "kabarmu baik?"],
+      "output":[
+      "Kabar ARTour sangat baik ^^",
+      "Hari ini sangat menyenangkan melihat ARTourist disini :D",
+      "Senang melihat ARTourist mengunjungiku~",
+      "Hariku sangat baik",
+      "Sangat baik! Terus kunjungi ARTour ya!",
+      "Hari ini ARTour sangat senang :D"
+      ] 
+    },
+    {
+      "tag":"nama",
+      "input":["siapa namamu?", "siapa kamu?", "nama kamu siapa?", "saya panggil kamu siapa?", "bagaimana saya bisa memanggilmu?", "cara memanggilmu", "nama anda siapa?"],
+      "output":[
+      "Panggil aku ARTour~",
+      "Namaku ARTour, salam kenal ya!",
+      "Kamu bisa memanggilku ARTour",
+      "Aku ARTour, senang melihatmu :D",
+      "Panggil saja aku ARTour, teman tour terbaikmu :)"
+      ] 
+    },
+    {
+      "tag":"panggil",
+      "input":["artour?", "ARTour!", "artour!", "ARTour?", "artour disini?", "apakah ada artour?", "lagi online?", "artour lagi online?", "artour on tidak?"],
+      "output":[
+      "Ada yang bisa aku bantu?",
+      "Siap, ARTour hadir! Ingin bertanya? :D",
+      "Ada apa ARTourist?",
+      "Ada yang bisa dibantu?",
+      "Ingin bertanya padaku? Silakan :D! ARTour sangat senang",
+      "Ada yang ingin kamu tanyakan, ARTourist?"
+      ] 
+    },
+    {
+      "tag":"pengertian",
+      "input":["candi prambanan adalah", "apa itu candi prambanan?", "candi prambanan merupakan", "candi prambanan?", "candi prambanan ialah", "pengertian candi prambanan"],
+      "output":[
+      "Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah.",
+      "Candi Prambanan adalah termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah satu candi terindah di Asia Tenggara.",
+      "Nama Prambanan, berasal dari nama desa tempat candi ini berdiri , diduga merupakan perubahan nama dialek bahasa Jawa dari istilah teologi Hindu Para Brahman yang bermakna Brahman Agung yaitu Brahman atau realitas abadi tertinggi dan teragung yang tak dapat digambarkan, yang kerap disamakan dengan konsep Tuhan dalam agama Hindu.",
+      "Prambanan adalah candi Hindu terbesar dan termegah yang pernah dibangun di Jawa kuno, pembangunan candi Hindu kerajaan ini dimulai oleh Sri Maharaja Rakai Pikatan sebagai tandingan candi Buddha Borobudur dan juga candi Sewu yang terletak tak jauh dari Prambanan."
+      ] 
+    },
+    {
+      "tag":"souvenir",
+      "input":["Apa saja oleh-oleh dari Prambanan?", "oleh-oleh", "souvenir", "Souvenir prambanan", "oleh-oleh prambanan"],
+      "output":[
+      "Gantungan kunci khas Candi Prambanan merupakan salah satu souvenir unik dari Candi Prambanan, yang bisa Anda jadikan pilihan untuk dibeli.",
+      "Mulai dari gantungan kunci, miniatur candi Hindu hingga beragam benda unik lainnya khas Prambanan bisa Anda dapatkan di tempat jual beli oleh-oleh Candi Prambanan.",
+      "Souvenir dari Candi Prambanan unik yang bisa Anda beli yaitu miniatur khas Candi Prambanan. Banyak sekali pedagang yang berjualan di sekitar Candi Prambanan, sehingga Anda bisa mudah untuk menemukannya.",
+      "Saat ini, banyak sekali pedagang yang menjual mug khas Prambanan. Tentu Anda bisa memilih dalam berbagai jenis ukuran serta gambar yang berbeda-beda. Souvenir unik satu ini biasanya dibanderol dari harga Rp. 28.000 hingga Rp35.000. Cukup terjangkau, Anda bisa memilih dalam beragam denis model serta ukuran.",
+      "Batik Candi Prambanan, merupakan salah satu jenis cendera mata yang sangat pas Anda jadikan sebagai buah tangan untuk orang tersayang.",
+      "Salah satu souvenir khas Candi Prambanan yaitu kaos khas Candi Prambanan. Anda bisa mendapatkannya di pelataran sekitar Candi Prambanan. Banyak sekali penjual yang menjual cendera mata satu ini, sehingga Anda diharuskan untuk meneliti terlebih dahulu."
+      ]
+    },
+    {
+      "tag":"akomodasikereta",
+      "input":["bagaimana cara ke prambanan dengan kereta?", "dari stasiun yogyakarta ke prambanan", "bagaimana cara ke prambanan dari stasiun?", "dari stasiun", "ke prambanan dari stasiun", "dari kereta", "naik kereta"],
+      "output":[
+      "Banyak tersedia taksi dan rental mobil di sekitar Stasiun kereta api Tugu Yogyakarta dan kawasan wisata Malioboro. Jika anda ingin menggunakan transportasi umum anda dapat menggunakan bus Trans Jogja jalur 1A dan naik dari Halte Mangkubumi."
+      ] 
+    },
+    {
+      "tag":"akomodasibus",
+      "input":["bagaimana cara ke prambanan dengan bus?", "cara ke prambanan pakai bus?", "bagaimana cara ke prambanan naik bus?", "bus", "naik bus", "bus kota", "trans jogja"],
+      "output":[
+      "Bus Transjogja yang melayani rute Prambanan hanya jalur 1A. Anda bisa menaiki bus ini dari Halte Mangkubumi dekat Stasiun Kereta Api Tugu Yogyakarta dan Malioboro. Jika anda berangkat dari area sekitar Terminal Bus Giwangan, Anda dapat langsung menggunakan bus jalur 1A dari terminal atau menggunakan bus antar kota jurusan Solo."
+      ] 
+    },
+    {
+      "tag":"akomodasibandara",
+      "input":["bagaimana cara ke prambanan dari bandara?", "cara ke prambanan dari bandara yogyakarta?", "gimana cara ke prambanan dari bandara yogyakarta?", "dari pesawat", "dari bandara", "bandara jogja", "bandara yogyakarta"],
+      "output":[
+      "Di area Bandara Internasional Yogyakarta, terdapat transportasi publik yang dapat membawa Anda menuju kota Yogyakarta. Anda dapat menaiki bus DAMRI, layanan shuttle (salah satunya seperti SatelQu), atau memilih menggunakan kereta api. Jika memilih menggunakan kereta api, Anda dapat menaiki Kereta Api Bandara atau Prameks, yang berangkat dari Stasiun Wojo menuju ke Yogyakarta.",
+      "Jika Anda memilih menggunakan mobil, terdapat moda transportasi seperti taxi atau ojek online yang dapat mengantar Anda. Perjalanan dari Bandara Internasional Yogyakarta menuju Prambanan menempuh jarak sekitar 64 km."
+      ] 
+    },
+    {
+      "tag":"akomodasikendaraanpribadi",
+      "input":["bagaimana cara ke prambanan dengan mobil pribadi?", "cara ke prambanan dengan mobil sendiri?", "gimana cara ke prambanan dengan kendaraan pribadi?", "mobil pribadi", "mobil sendiri", "mobil saya", "mobilku", "cara ke prambanan naik mobil"],
+      "output":[
+      "Menuju Prambanan menggunakan kendaraan pribadi tidaklah sulit. Cukup melalui jalan raya Solo - Yogya yang bisa diakses dari jalan lingkar luar Yogya atau dari dalam kota Yogya melalui jalan Laksda Adisutjipto. Candi Prambanan terletak di Km 16 jalan raya Solo - Yogya sebelah utara jalan."
+      ] 
+    },
+    {
+      "tag":"kuliner",
+      "input":["makanan enak di prambanan", "kuliner di sekitar prambanan?", "tempat makan di dekat prambanan?", "ada tempat makan di dekat prambanan?", "apakah ada tempat makan dekat prambanan?", "rekomendasi tempat makan dekat prambanan", "rekomendasi kuliner prambanan", "makanan dekat prambanan", "kuliner prambanan"],
+      "output":[
+      "Abhayagiri Restaurant merupakan restoran fine dining berinterior Jawa tradisional yang berada di sekitar Prambanan. Lokasi tepatnya yakni di Heritage Resort, RT.02/RW.01, Sumberwatu, Sambirejo, Kecamatan Prambanan, Kabupaten Sleman, Yogyakarta.",
+      "Pawon Prambanan cocok dikunjungi untuk rombongan, baik keluarga atau perusahan. Tempatnya yang luas akan membuatmu nyaman dan betah berlama-lama di sana. Pawon Prambanan beralamat di Jalan Candi Sewu Nomor 24, Nngangrukbaru, Timur Candi, Kecamatan Prambanan, Kabupaten Klaten, Jawa Tengah. Jam operasional pukul 07.00-20.00 WIB.",
+      "Wedang Kopi Prambanan cocok untuk bersantai setelah capek jalan-jalan di Prambanan. Harga lauk prasmanannya antara Rp 5.000 - Rp 26.000. Sementara, untuk menu paket mulai dari Rp 55.000. Warung Kopi Prambanan beralamat di Jalan Raya Manisrenggo - Prambanan Nomor 16, Area Sawah, Bugisan, Kecamatan Prambanan, Kabupaten Klaten, Jawa Tengah. Jam operasionalnya pukul 09.00-22.00 WIB."
+      ] 
+    },
+    {
+      "tag":"biayaumum",
+      "input":["Berapa tarif umum masuk Candi Prambanan?", "Tiket masuk Candi Prambanan?", "Biaya masuk Candi Prambanan?", "Informasi tiket Candi Prambanan?", "Informasi tiket masuk umum", "tiket umum", "berapa masuk umum"],
+      "output":[
+      "Tarif wisatawan nusantara per orang untuk sekali masuk: Usia 10 tahun keatas: Rp  50.000, Usia 3 s/d 10 tahun: Rp 25.000 (Termasuk premi asuransi Rp 500 per orang)"
+      ] 
+    },
+    {
+      "tag":"biayakhusus",
+      "input":["Berapa biaya masuk Candi Prambanan untuk pelajar?", "rombongan pelajar", "biaya masuk pelajar", "Tiket masuk Candi Prambanan untuk pelajar?", "tiket masuk untuk pelajar", "Informasi tiket pelajar", "Informasi tiket masuk pelajar", "Tarif khusus bagi rombongan pelajar", "Diskon tiket", "Tarif paket rombongan", "untuk mahasiswa", "pelajar"],
+      "output":[
+      "Tarif khusus wisatawan nusantara bagi rombongan pelajar serta mahasiswa per grup setiap kali masuk* (dengan surat pengantar dari sekolah/universitas) Minimal 20 orang, TWC Prambanan: Rp 25.000,00, Paket TWC Prambanan, Plaosan, dan Sojiwan: Rp 30.000,00 *Termasuk premi asuransi Rp500,00 per orang"
+      ] 
+    },
+    {
+      "tag":"lokasiprambanan",
+      "input":["Dimana lokasi Candi Prambanan?", "lokasi candi prambanan itu dimana?", "lokasi candi prambanan?", "tempat Candi Prambanan?", "daerah sekitar Candi Prambanan"],
+      "output":[
+      "Lokasi Candi Prambanan : Jl. Raya Solo - Yogyakarta No.16, Kranggan, Bokoharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571"
+      ] 
+    },
+    {
+      "tag":"lokasisendratari",
+      "input":["Dimana lokasi konser sendratari?", "Tempat konser pertunjukan Ramayana", "Konser Sendratari Ramayana", "konser ramayana", "konser sendratari"],
+      "output":[
+      "Sendratari Ramayana digelar di Trimurti Theater Indoor"
+      ] 
+    },
+    {
+      "tag":"waktu",
+      "input":["waktu buka", "jam buka", "Waktu buka Candi Prambanan?", "Jam buka Candi Prambanan?", "Apakah Candi Prambanan sudah buka?", "Jam tutup Candi Prambanan", "Jadwal pertunjukan Sendratari Ramayana"],
+      "output":[
+      "Update Jadwal Pertunjukan - Sendratari Ramayana Ballet Prambanan, Desember 2020 – Januari 2021, Setiap Sabtu pukul 19.30 wib, Desember 2020: 5, 12, 19, 26, 27, 29, Januari 2021: 2, 9, 16, 23, 30",
+      "Jam buka candi mulai pukul 06.00-17.00 WIB"
+      ] 
+    },
+    {
+      "tag":"covid",
+      "input":["protokol kesehatan pengunjung", "area covid saat ini", "prosedur pengunjung saat pandemi", "protocol covid", "covid19", "prosedur pandemi di prambanan", "prosedur saat pandemi", "protokol kesehatan prambanan", "protokol pandemi"],
+      "output":[
+      "Para pengunjung wajib : Menerapkan Protokol CHSE (Cleanliness, Health, Safety, Environment) bagi pengunjung, karyawan, dan seniman. Pengunjung wajib mengenakan masker, mejaga jarak serta mematuhi protokol kesehatan yang telah disediakan."
+      ] 
+    },
+    {
+      "tag":"sejarah",
+      "input":["sejarah berdirinya Candi Prambanan?", "sejarah", "Kisah Ramayana?", "Dewi Shinta Ramayana", "Rama Shinta", "Sejarah Candi Prambanan?", "Roro Jonggrang", "Bandung Bondowoso", "Candi Hindu di Indonesia", "Rahwana dan Dewi Shinta", "Berdiri sejak kapan?", "terdiri dari apa saja bangunannya?"],
+      "output":[
+      "Candi Prambanan merupakan candi Hindu yang terbesar di Indonesia. Sampai saat ini belum dapat dipastikan kapan candi ini dibangun dan atas perintah siapa, namun kuat dugaan bahwa Candi Prambanan dibangun sekitar pertengahan abad ke-9 oleh raja dari Wangsa Sanjaya, yaitu Raja Balitung Maha Sambu. Dugaan tersebut didasarkan pada isi Prasasti Syiwagrha yang ditemukan di sekitar Prambanan dan saat ini tersimpan di Museum Nasional di Jakarta. Prasasti berangka tahun 778 Saka (856 M) ini ditulis pada masa pemerintahan Rakai Pikatan.",
+      "Pada tahun 1991 candi yang sering di sebut sebagai Candi Roro Jonggrang ini di nobatkan sebagai warisan budaya oleh Unesco. Untuk dapat terus menghidupkan budaya di lingkungan candi, pengelola menyelenggarakan pagelaran tari setiap 2 hari sekali. Tidak hanya itu juga, setiap tahun lokasi pelataran candi juga digunakan untuk beribadah bagi Umat Hindu se Jawa Tengah. Saat ini jumlah candi yang masih tersisa kurang lebih hanya 18 candi dari total 240. Dari ke 18 candi tersebut diantaranya adalah 3 Candi Wahana, 3 Candi Trimurti, 2 Candi Apit, 4 Candi Kelir, 4 candi Patok dan 224 Candi Perwara.",
+      "Prabu Janaka, Raja kerajaan Mantili memiliki putri bernama Dewi Shinta. Sebuah sayembara diadakan raja untuk mencari calon suami untuk Dewi Shinta. Pangeran dari kerajaan Ayodya Raden Rama Wijaya, memenangkan sayembara tersebut. Sementara itu Prabu Rahwana, pemimpin kerajaan Alengka juga ingin menikahi Dewi Shinta. Rahwana percaya bahwa Shinta adalah reinkarnasi dari Widowati, seseorang yang telah lama ia inginkan."
+      ] 
+    },
+    {
+      "tag":"candisekitar",
+      "input":["apa saja candi di prambanan?", "nama candi di prambanan", "kompleks candi prambanan?", "nama candi", "kompleks nama candi", "zona candi"],
+      "output":[
+      "Kompleks candi Prambanan terdiri dari: 3 Candi Trimurti: candi Siwa, Wisnu, dan Brahma, 3 Candi Wahana: candi Nandi, Garuda, dan Angsa, 2 Candi Apit: terletak antara barisan candi-candi Trimurti dan candi-candi Wahana di sisi utara dan selatan, 4 Candi Kelir: terletak di 4 penjuru mata angin tepat di balik pintu masuk halaman dalam atau zona inti, 4 Candi Patok: terletak di 4 sudut halaman dalam atau zona inti, 224 Candi Perwara: tersusun dalam 4 barisan konsentris dengan jumlah candi dari barisan terdalam hingga terluar: 44, 52, 60, dan 68",
+      "Kompleks candi Prambanan terdiri atas tiga zona; pertama adalah zona luar, kedua adalah zona tengah yang terdiri atas ratusan candi, ketiga adalah zona dalam yang merupakan zona tersuci tempat delapan candi utama dan delapan kuil kecil."
+      ] 
+    },
+    {
+      "tag":"keluar",
+      "input":["byebye", "keluar", "exit", "quit", "bye", "dadah", "goodbye", "sampai jumpa", "selamat tinggal"],
+      "output":[
+      "Oh, ARTourist akan pergi? Kunjungi aku lagi ya!",
+      "Sampai jumpa lagi ARTourist :D",
+      "Bye~ Jangan lupa makan ya",
+      "Sampai jumpa di Prambanan ARTourist :)",
+      "Hati-hati di jalan ya :)"
+      ] 
+    }
+  ]
+ }
