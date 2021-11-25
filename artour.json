@@ -37,7 +37,7 @@
     },
     {
       "tag":"panggil",
-      "input":["artour?", "ARTour!", "artour!", "ARTour?", "artour disini?", "apakah ada artour?", "lagi online?", "artour lagi online?", "artour on tidak?"],
+      "input":["artour?", "ARTour!", "artour!", "ARTour?", "artour disini?", "apakah ada artour?", "lagi online?", "artour lagi online?", "artour on tidak?", "kamu ada disini?", "kamu dimana?"],
       "output":[
       "Ada yang bisa aku bantu?",
       "Siap, ARTour hadir! Ingin bertanya? :D",
@@ -49,7 +49,7 @@
     },
     {
       "tag":"pengertian",
-      "input":["candi prambanan adalah", "apa itu candi prambanan?", "candi prambanan merupakan", "candi prambanan?", "candi prambanan ialah", "pengertian candi prambanan"],
+      "input":["prambanan merupakan", "candi prambanan merupakan", "candi prambanan adalah", "apa itu candi prambanan?", "candi prambanan merupakan", "candi prambanan?", "candi prambanan ialah", "pengertian candi prambanan", "definisi candi prambanan?"],
       "output":[
       "Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah.",
       "Candi Prambanan adalah termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah satu candi terindah di Asia Tenggara.",
@@ -59,7 +59,7 @@
     },
     {
       "tag":"souvenir",
-      "input":["Apa saja oleh-oleh dari Prambanan?", "oleh-oleh", "souvenir", "Souvenir prambanan", "oleh-oleh prambanan"],
+      "input":["oleh oleh yang bisa dibeli apa saja?", "Apa saja oleh oleh dari Prambanan?", "oleh oleh khas prambanan", "apa yang bisa dibeli dari prambanan?", "oleh-oleh", "souvenir", "Souvenir prambanan", "oleh-oleh prambanan"],
       "output":[
       "Gantungan kunci khas Candi Prambanan merupakan salah satu souvenir unik dari Candi Prambanan, yang bisa Anda jadikan pilihan untuk dibeli.",
       "Mulai dari gantungan kunci, miniatur candi Hindu hingga beragam benda unik lainnya khas Prambanan bisa Anda dapatkan di tempat jual beli oleh-oleh Candi Prambanan.",
@@ -85,7 +85,7 @@
     },
     {
       "tag":"akomodasibandara",
-      "input":["bagaimana cara ke prambanan dari bandara?", "cara ke prambanan dari bandara yogyakarta?", "gimana cara ke prambanan dari bandara yogyakarta?", "dari pesawat", "dari bandara", "bandara jogja", "bandara yogyakarta"],
+      "input":["dari bandara internasional yogyakarta ke candi", "bagaimana cara ke prambanan dari bandara?", "cara ke prambanan dari bandara yogyakarta?", "gimana cara ke prambanan dari bandara yogyakarta?", "dari pesawat", "dari bandara", "bandara jogja", "bandara yogyakarta"],
       "output":[
       "Di area Bandara Internasional Yogyakarta, terdapat transportasi publik yang dapat membawa Anda menuju kota Yogyakarta. Anda dapat menaiki bus DAMRI, layanan shuttle (salah satunya seperti SatelQu), atau memilih menggunakan kereta api. Jika memilih menggunakan kereta api, Anda dapat menaiki Kereta Api Bandara atau Prameks, yang berangkat dari Stasiun Wojo menuju ke Yogyakarta.",
       "Jika Anda memilih menggunakan mobil, terdapat moda transportasi seperti taxi atau ojek online yang dapat mengantar Anda. Perjalanan dari Bandara Internasional Yogyakarta menuju Prambanan menempuh jarak sekitar 64 km."
@@ -100,7 +100,7 @@
     },
     {
       "tag":"kuliner",
-      "input":["makanan enak di prambanan", "kuliner di sekitar prambanan?", "tempat makan di dekat prambanan?", "ada tempat makan di dekat prambanan?", "apakah ada tempat makan dekat prambanan?", "rekomendasi tempat makan dekat prambanan", "rekomendasi kuliner prambanan", "makanan dekat prambanan", "kuliner prambanan"],
+      "input":["rekomendasi tempat makan dong", "makanan enak di prambanan", "kuliner di sekitar prambanan?", "tempat makan di dekat prambanan?", "ada tempat makan di dekat prambanan?", "apakah ada tempat makan dekat prambanan?", "rekomendasi tempat makan dekat prambanan", "rekomendasi kuliner prambanan", "makanan dekat prambanan", "kuliner prambanan"],
       "output":[
       "Abhayagiri Restaurant merupakan restoran fine dining berinterior Jawa tradisional yang berada di sekitar Prambanan. Lokasi tepatnya yakni di Heritage Resort, RT.02/RW.01, Sumberwatu, Sambirejo, Kecamatan Prambanan, Kabupaten Sleman, Yogyakarta.",
       "Pawon Prambanan cocok dikunjungi untuk rombongan, baik keluarga atau perusahan. Tempatnya yang luas akan membuatmu nyaman dan betah berlama-lama di sana. Pawon Prambanan beralamat di Jalan Candi Sewu Nomor 24, Nngangrukbaru, Timur Candi, Kecamatan Prambanan, Kabupaten Klaten, Jawa Tengah. Jam operasional pukul 07.00-20.00 WIB.",
@@ -116,28 +116,28 @@
     },
     {
       "tag":"biayakhusus",
-      "input":["Berapa biaya masuk Candi Prambanan untuk pelajar?", "rombongan pelajar", "biaya masuk pelajar", "Tiket masuk Candi Prambanan untuk pelajar?", "tiket masuk untuk pelajar", "Informasi tiket pelajar", "Informasi tiket masuk pelajar", "Tarif khusus bagi rombongan pelajar", "Diskon tiket", "Tarif paket rombongan", "untuk mahasiswa", "pelajar"],
+      "input":["Berapa biaya masuk Candi Prambanan untuk pelajar?", "rombongan pelajar", "biaya masuk pelajar", "Tiket masuk Candi Prambanan untuk pelajar?", "tiket masuk untuk pelajar", "Informasi tiket pelajar", "Informasi tiket masuk pelajar", "Tarif khusus bagi rombongan pelajar", "Diskon tiket", "Tarif paket rombongan", "untuk mahasiswa", "pelajar", "khusus pelajar bayar berapa?"],
       "output":[
       "Tarif khusus wisatawan nusantara bagi rombongan pelajar serta mahasiswa per grup setiap kali masuk* (dengan surat pengantar dari sekolah/universitas) Minimal 20 orang, TWC Prambanan: Rp 25.000,00, Paket TWC Prambanan, Plaosan, dan Sojiwan: Rp 30.000,00 *Termasuk premi asuransi Rp500,00 per orang"
       ] 
     },
     {
       "tag":"lokasiprambanan",
-      "input":["Dimana lokasi Candi Prambanan?", "lokasi candi prambanan itu dimana?", "lokasi candi prambanan?", "tempat Candi Prambanan?", "daerah sekitar Candi Prambanan"],
+      "input":["Dimana lokasi Candi Prambanan?", "lokasi candi prambanan itu dimana?", "lokasi candi prambanan?", "tempat Candi Prambanan?", "daerah sekitar Candi Prambanan", "daerah candi prambanan?"],
       "output":[
       "Lokasi Candi Prambanan : Jl. Raya Solo - Yogyakarta No.16, Kranggan, Bokoharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571"
       ] 
     },
     {
       "tag":"lokasisendratari",
-      "input":["Dimana lokasi konser sendratari?", "Tempat konser pertunjukan Ramayana", "Konser Sendratari Ramayana", "konser ramayana", "konser sendratari"],
+      "input":["dimana lokasi sendratari?", "sendratari itu dimana?", "Dimana lokasi konser sendratari?", "Tempat konser pertunjukan Ramayana", "Konser Sendratari Ramayana", "konser ramayana", "konser sendratari"],
       "output":[
       "Sendratari Ramayana digelar di Trimurti Theater Indoor"
       ] 
     },
     {
       "tag":"waktu",
-      "input":["waktu buka", "jam buka", "Waktu buka Candi Prambanan?", "Jam buka Candi Prambanan?", "Apakah Candi Prambanan sudah buka?", "Jam tutup Candi Prambanan", "Jadwal pertunjukan Sendratari Ramayana"],
+      "input":["kapan candi prambanan buka?", "kapan waktu buka candi?", "waktu buka", "jam buka", "Waktu buka Candi Prambanan?", "Jam buka Candi Prambanan?", "Apakah Candi Prambanan sudah buka?", "Jam tutup Candi Prambanan"],
       "output":[
       "Update Jadwal Pertunjukan - Sendratari Ramayana Ballet Prambanan, Desember 2020 – Januari 2021, Setiap Sabtu pukul 19.30 wib, Desember 2020: 5, 12, 19, 26, 27, 29, Januari 2021: 2, 9, 16, 23, 30",
       "Jam buka candi mulai pukul 06.00-17.00 WIB"
